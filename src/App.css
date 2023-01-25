@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: rgb(29, 0, 43);
+  color: rgb(254, 255, 192);
+}
+
+div {
+  border: rgb(255, 253, 154) 1px dotted;
+}
