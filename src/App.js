@@ -1,10 +1,11 @@
 import './App.css';
+import GoddessList from './GoddessList';
 
 function App() {
-  const goddesses - [
+  const goddesses = [
     {
       name: 'Hecate',
-      about: 'a goddess in ancient Greek religion and mythology, most often shown holding a pair of torches, a key, snakes, or accompanied by dogs,[1] and in later periods depicted as three-formed or triple-bodied. She is variously associated with crossroads, entrance-ways, night, light, magic, witchcraft, the Moon, knowledge of herbs and poisonous plants, graves, ghosts, necromancy, and sorcery.',
+      about: 'a goddess in ancient Greek religion and mythology, most often shown holding a pair of torches, a key, snakes, or accompanied by dogs, and in later periods depicted as three-formed or triple-bodied. She is variously associated with crossroads, entrance-ways, night, light, magic, witchcraft, the Moon, knowledge of herbs and poisonous plants, graves, ghosts, necromancy, and sorcery.',
       visitations: [
         {
           phase: 'Crescent Waning',
@@ -37,7 +38,7 @@ function App() {
           intensity: 91
         },
         {
-          phase:'Crescent Waxing',
+          phase: 'Crescent Waxing',
           intensity: 95
         }
       ]
@@ -63,10 +64,10 @@ function App() {
   ]
   return (
     <div>
-      <GoddessList goddesses={goddesses}/>
+      <GoddessList goddesses={goddesses} />
     </div>
-    )
-  }
-  
-  export default App;
-  
+  )
+}
+
+export default App;
+
